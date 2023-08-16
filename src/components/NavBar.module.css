@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom-width: 0 !important;
+  padding-top: 60px;
+  padding-right: 60px;
+  color: #e8b9a0;
+  font-family: "ApparelBold";
+  font-size: 18px;
+}
+
+.menuItem:hover {
+  font-size: 24px;
+  font-family: "ApparelBlack";
+  color: #e8b9a0 !important;
+}
+
+.menuItem::after {
+  border-bottom-width: 0 !important;
+  color: #e8b9a0 !important;
+}
+
+.selected {
+  color: #e8b9a0 !important;
+  font-weight: bold;
+}
