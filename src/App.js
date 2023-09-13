@@ -8,8 +8,6 @@ import {
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import GraphicLeft from "./components/GraphicLeft";
-import GraphicRight from "./components/GraphicRight";
 
 export default function App() {
   const [isFirstLoading, setIsFirstLoading] = useState(true);
