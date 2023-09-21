@@ -1,0 +1,38 @@
+/* img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100%;
+} */
+
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 40px; */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.phoneContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "ApparelBlack";
+  color: white;
+  margin: 0;
+}
+
+.description {
+  font-size: 14px;
+  font-family: "ApparelBold";
+  color: white;
+}
