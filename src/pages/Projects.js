@@ -91,8 +91,7 @@ export default function Projects() {
               <Card
                 hoverable
                 style={{
-                  // backgroundColor: "#D8EBEB",
-                  backgroundColor: "#B0D0D3",
+                  backgroundColor: "#D8EBEB",
                   border: "none",
                   width: "600px",
                   height: "400px",
@@ -146,8 +145,8 @@ export default function Projects() {
               <Card
                 hoverable
                 style={{
-                  // backgroundColor: "#FEE4BD",
-                  backgroundColor: "#EFDD8D",
+                  backgroundColor: "#FEE4BD",
+                  // backgroundColor: "#EFDD8D",
                   border: "none",
                   width: "600px",
                   height: "400px",
@@ -176,7 +175,7 @@ export default function Projects() {
               <Card
                 hoverable
                 style={{
-                  backgroundColor: "#D5E68D",
+                  backgroundColor: "#C8ECA4",
                   border: "none",
                   width: "600px",
                   height: "400px",

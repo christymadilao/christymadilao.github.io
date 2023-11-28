@@ -20,7 +20,9 @@ export default function DogGooo() {
         <h1 className={`${styles.title} animate__animated animate__fadeInUp`}>
           DogGooo
         </h1>
-        <div className={styles.pageContainer}>
+        <div
+          className={`${styles.pageContainer} animate__animated animate__fadeInUp`}
+        >
           <div>
             <img
               src={DogGoooCover}
@@ -28,88 +30,123 @@ export default function DogGooo() {
               className={`${styles.cover} animate__animated animate__fadeInUp`}
             />
           </div>
-          <div className={styles.contentContainer}>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+          <div
+            className={`${styles.contentContainer} animate__animated animate__fadeInUp`}
+          >
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Background</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <p>
-                  DogGooo is a mobile application that allows dog owners to
-                  easily find dog friendly places within their location. Users
-                  will also be able to view reviews made by dog owners on their
-                  experience at the specific store, and the app will bring the
-                  user to external pages to a navigation system. This app allows
-                  users to plan their trips with their dogs and gives them a
-                  sense of reassurance.
+                  DogGooo is a mobile app designed for dog owners seeking pet
+                  friendly locations in their vicinity. The app not only
+                  facilitates easy discovery of dog friendly places but also
+                  provides user reviews, offering insights into the experiences
+                  at each store. With built in navigation, users can seamlessly
+                  plan trips, ensuring a hassle free and enjoyable experience
+                  for both them and their furry companions.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Project Goal</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <p>
-                  Build, design, and conduct research for an iOS app that will
-                  allow users to find pet friendly locations to bring their
-                  furry friend along by searching for a location or utilizing
-                  filters.
+                  Architect, design, and conduct comprehensive research for an
+                  iOS app tailored to empower users in discovering pet friendly
+                  destinations. Whether searching for a specific location or
+                  applying intuitive filters, the app ensures a seamless
+                  experience for users looking to explore with their beloved
+                  furry companions.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Value Proposition</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <ul>
                   <li>
-                    The app will provide convenience for users who want to bring
-                    their dog out as stores usually do not state if their pet
-                    friendly online
+                    The app brings convenience to users seeking pet friendly
+                    outings by addressing the common challenge of stores not
+                    clearly indicating their pet friendliness online
                   </li>
                   <li>
-                    It will allow users to easily find new dog friendly places
-                    to explore with their dogs based on their lifestyle and
-                    interests
+                    It empowers users to effortlessly discover new dog friendly
+                    destinations that align with their lifestyle and interests
                   </li>
                   <li>
-                    It will encourage users to bring their dogs outside often
-                    and prevents any guilt or worry about leaving them at home
+                    It motivates users to frequently enjoy outdoor activities
+                    with their dogs, alleviating any feelings of guilt or worry
+                    about leaving them at home.
                   </li>
                 </ul>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Research Goals</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <ul>
                   <li>
-                    I wanted to understand how users find dog friendly places
-                    and their process for researching them
+                    I aimed to comprehend the methods of users for discovering
+                    dog friendly places and their approach to researching them
                   </li>
                   <li>
-                    Gain insight into which places users want to bring their
-                    dogs to
+                    Obtain insights into the specific places users desire to
+                    bring their dogs
                   </li>
                   <li>
-                    Learn how often users bring their dogs outside and include
-                    them in their daily activities
+                    Understand the frequency with which users include their dogs
+                    in outdoor and daily activities
                   </li>
                 </ul>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Research Process</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <p>
-                  I interviewed 12 interviewees and conducted questionnaires on
-                  Instagram to conduct my user research.
+                  I conducted in depth interviews with 12 participants and
+                  distributed questionnaires via Instagram as part of my user
+                  research process.
                 </p>
                 <p>The following questions were asked:</p>
                 <ul>
@@ -121,7 +158,7 @@ export default function DogGooo() {
                   </li>
                   <li>Where do you usually go to spend time with your dog?</li>
                   <li>
-                    How do you find dog-friendly places to bring your dog to?
+                    How do you find dog friendly places to bring your dog to?
                   </li>
                   <li>
                     What is your planning process when you want to bring your
@@ -134,11 +171,17 @@ export default function DogGooo() {
                 </ul>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Research Results</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <div>
                   <img
                     src={DogGoooResearchResults}
@@ -147,33 +190,42 @@ export default function DogGooo() {
                   />
                 </div>
                 <p>
-                  I used Miro for mapping purposes and to better categorize my
-                  research findings.
+                  I utilized Miro for mapping and organizing my research
+                  findings, enhancing the categorization process.
                 </p>
                 <p>The following user insights were derived:</p>
                 <ul>
                   <li>
-                    Learnt that users would often or would like to bring their
-                    dogs to everyday places such as restaurants, malls,
-                    boutiques and bakeries
+                    Discovered that users frequently desire to bring their dogs
+                    to everyday locations, including restaurants, malls,
+                    boutiques, and bakeries
                   </li>
                   <li>
-                    Would avoid leaving their dog alone and cater their daily
-                    routine to their dogs
+                    Found that users prefer not to leave their dogs alone,
+                    shaping their daily routines to accommodate their furry
+                    companions
                   </li>
                   <li>
-                    Obtain pet friendly recommendations through Yelp, Instagram
-                    and Google but found the process hard and time consuming as
-                    information is not 100% accurate
+                    Users seek pet friendly recommendations on platforms like
+                    Yelp, Instagram, and Google but face challenges due to the
+                    difficulty and time consuming nature of the process,
+                    compounded by less than perfect accuracy in the information
+                    provided
                   </li>
                 </ul>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Persona</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <div>
                   <img
                     src={DogGoooPersona}
@@ -182,21 +234,28 @@ export default function DogGooo() {
                   />
                 </div>
                 <p>
-                  After analyzing my research, I created my persona “Grace Low”
-                  who recently adopted a puppy and wants to spend more time with
-                  her puppy by bringing him to places that Grace is interested
-                  in. She usually finds dog friendly places through channels
-                  such as Instagram, Yelp, Google and word of mouth but she
-                  finds it to be very disorganized and that there is little
-                  information if a place is pet friendly.
+                  Following a thorough analysis of my research, I crafted the
+                  persona Grace Low. Recently adopting a puppy, Grace aims to
+                  spend quality time with her furry companion by exploring
+                  places aligned with her interests. While she typically
+                  discovers dog friendly venues through platforms like
+                  Instagram, Yelp, Google, and word of mouth, Grace finds the
+                  information disorganized and lacking clarity on whether a
+                  place is truly pet friendly.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Information Architecture</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <div>
                   <img
                     src={DogGoooInformationArchitecture}
@@ -205,23 +264,28 @@ export default function DogGooo() {
                   />
                 </div>
                 <p>
-                  DogGooo will consist of four main components: Explore,
-                  Favourites, Contributions and Profile. The main goal of
-                  DogGooo was to make it a convenient platform that was user
-                  friendly and allow them to find if a specific place is dog
-                  friendly or to find numerous recommendations of dog friendly
-                  places. Constructing the information architecture of the app
-                  allowed me to have a clear direction as to how I should create
-                  my wireframes and also sort out various subcategories and
-                  where they will belong to the four components.
+                  DogGooo is structured around four key components: Explore,
+                  Favorites, Contributions, and Profile. The primary objective
+                  is to create a user friendly and convenient platform that
+                  empowers users to easily identify pet friendly places and
+                  access a plethora of recommendations. Designing the
+                  information architecture provided a clear roadmap for creating
+                  wireframes and organizing subcategories within the four main
+                  components.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Initial Sketch</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <div>
                   <img
                     src={DogGoooInitialSketch}
@@ -230,52 +294,63 @@ export default function DogGooo() {
                   />
                 </div>
                 <p>
-                  The main user flow of the app was to search for a particular
-                  category and for the user to see the places that are
-                  doDogfriendly. The main challenge I faced with the user flows,
-                  was trying the break it down into small and feasible steps. As
-                  it was obvious for me on how to navigate through the app, it
-                  was not as clear for the users point of view, so I went
-                  through many revisions to break down the steps.
+                  The primary user flow of the app involves users searching for
+                  a specific category and viewing dog friendly places. A
+                  significant challenge during the design process was breaking
+                  down the user flow into manageable and intuitive steps. While
+                  the navigation was clear from my perspective, I recognized the
+                  need for multiple revisions to ensure a user friendly
+                  experience, addressing potential clarity issues from the point
+                  of view of users.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Usability Testing</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <p>
-                  From my research findings, I found that most users do not find
-                  if a specific place is dog friendly. Rather, they look for a
-                  list of recommendations and will go to the stores that are pet
-                  friendly. For the explore page, I designed it such that there
-                  are many lists and images of the dog friendly places to give
-                  users many options.
+                  Based on my research findings, it became evident that users
+                  are more inclined to seek lists of pet friendly
+                  recommendations rather than checking the pet friendliness of
+                  specific places. In response, I designed the Explore page to
+                  feature numerous lists and images of dog friendly places,
+                  providing users with a variety of options and making it easier
+                  for them to discover stores that cater to their pets.
                 </p>
                 <p>
-                  Through my user testing sessions, I made adjustments such as
-                  the filter page, and made it visible on the explore page, so
-                  that users can scroll through the filters and select the
-                  desired one. For my user testing, I made the scenario as to
-                  how the user will find dog friendly boutiques on the app.
-                  Users have two options as to how they would navigate this. The
-                  most specific way is to click on the boutiques filter, but
-                  users have the option of inputting tags such as boutiques, or
-                  find a specific pet friendly place through the search bar.
-                  Once they click on one of the search results, it will provide
-                  them with information of the place, reviews, and also some
-                  images of the place. The user can also click on the directions
-                  feature, where it will redirect them to their Maps feature on
-                  their phone, or Google Maps.
+                  During my user testing sessions, I refined aspects such as the
+                  filter page, making it visible on the Explore page for easy
+                  access. Users can now scroll through filters and choose the
+                  ones that suit their preferences. For testing scenarios, I
+                  presented a situation where users were looking for dog
+                  friendly boutiques. They can either choose the specific
+                  boutiques filter or input related tags in the search bar for a
+                  more tailored search. Clicking on a search result provides
+                  detailed information, reviews, and images of the place, while
+                  the directions feature redirects them to Maps or Google Maps
+                  for seamless navigation.
                 </p>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Prototype</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <div>
                   <img
                     src={DogGoooPrototype}
@@ -285,23 +360,28 @@ export default function DogGooo() {
                 </div>
               </div>
             </div>
-            <div className={styles.contentWrapper}>
-              <div className={styles.contentTitle}>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
                 <h2>Learning Outcomes</h2>
               </div>
-              <div className={styles.contentDescription}>
+              <div
+                className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
+              >
                 <p>
-                  Through this experience, I was able to learn the fundamentals
-                  and theories of UX design and apply it to my own personal
-                  project. As this project was a personal passion of mine, the
-                  main challenge I had initially was taking out my own
-                  perspective of how the app should look like and including
-                  unnecessary features such as the Restaurant Booking, as users
-                  did not really need it to fulfill their goals. I also learnt
-                  how important it is to lead the interviews and ask meaningful
-                  questions that would provide me with better insight as to how
-                  users will use the app. From this project, I am more motivated
-                  to learn new design tools and further my skills in UX design.
+                  Through this experience, I delved into the fundamentals and
+                  theories of UX design, applying them to my personal project.
+                  While my passion drove the project, I faced the initial
+                  challenge of separating my own perspective from the actual
+                  needs of users, eliminating unnecessary features like
+                  Restaurant Booking. Leading interviews taught me the
+                  significance of asking meaningful questions for deeper
+                  insights into user behavior. This project has fueled my
+                  motivation to explore new design tools and elevate my skills
+                  in UX design.
                 </p>
               </div>
             </div>

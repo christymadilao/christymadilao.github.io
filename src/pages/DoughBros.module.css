@@ -1,0 +1,83 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  color: #fff;
+  height: 250px;
+}
+
+.cover {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.descriptionCover {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #454545;
+  font-family: "ApparelBlack";
+  font-size: 40px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.description {
+  text-align: left;
+  margin-top: 32px;
+  font-size: 18px;
+  font-family: "ApparelBold";
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.contentTitle {
+  color: #454545;
+  font-family: "ApparelBold";
+  font-size: 20px;
+}
+
+.contentDescription {
+  width: 100%;
+  /* max-width: 1000px; */
+  font-family: "Apparel";
+  font-size: 18px;
+  display: fl;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer {
+  width: 100%;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentContainer {
+    width: 50%;
+    margin-left: 26%;
+  }
+}
