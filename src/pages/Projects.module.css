@@ -1,20 +1,28 @@
-/* img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  max-width: 100%;
-} */
-
 .container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  gap: 40px; */
   display: flex;
   flex-direction: row;
   gap: 40px;
   margin-top: 100px;
+}
+
+.title {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #454545;
+  font-family: "ApparelBlack";
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  color: #fff;
+  height: 250px;
 }
 
 .phoneContainer {
@@ -24,15 +32,15 @@
   margin-top: 40px;
 }
 
-.title {
+.projectTitle {
   font-size: 24px;
   font-family: "ApparelBlack";
   color: white;
   margin: 0;
 }
 
-.description {
-  font-size: 14px;
+.projectDescription {
+  font-size: 16px;
   font-family: "ApparelBold";
   color: white;
 }
