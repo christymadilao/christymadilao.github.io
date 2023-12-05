@@ -12,8 +12,8 @@ export default function AboutCard() {
           <h1 className={styles.title}>Christy Madilao</h1>
           <h2 className={styles.position}>UX Engineer at Rakuten Asia</h2>
           <p className={styles.description}>
-            I am a software engineer with a passion for design, problem solving
-            and learning.
+            I am a ux designer and software engineer with a passion for design,
+            problem solving and learning.
           </p>
           <PersonalLinks />
           <SkillTags />
