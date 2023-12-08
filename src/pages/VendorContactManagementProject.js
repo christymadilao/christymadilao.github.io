@@ -16,11 +16,6 @@ import UserPreferences from "../gif/UserPreferences";
 import EditQuote from "../gif/EditQuote";
 import ABTesting from "../images/abtesting.png";
 
-import SavedToDrafts from "../images/SavedToDrafts.png";
-import Saving from "../images/Saving.png";
-import ErrorInSaving from "../images/ErrorInSaving.png";
-import DraftTab from "../images/DraftTab.png";
-
 import styles from "./VendorContactManagementProject.module.css";
 
 import "animate.css";
