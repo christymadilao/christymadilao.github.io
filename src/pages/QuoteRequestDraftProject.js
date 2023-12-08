@@ -275,7 +275,7 @@ export default function QuoteRequestDraftProject() {
                   with project managers has been instrumental. Obtaining clear
                   objectives and conducting user research enabled me to craft
                   wireframes that are intuitive, requiring minimal adaptation
-                  from the user's perspective.
+                  from the perspective of the user.
                 </p>
                 <p>
                   Throughout this internship, I have embraced challenges as a
