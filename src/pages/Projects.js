@@ -1,4 +1,4 @@
-import { Card, Col, Row, Layout } from "antd";
+import { Card, Col, Row, Layout, Space, Tag } from "antd";
 import { Link } from "react-router-dom";
 import DogGooo from "../images/DogGooo.png";
 import DoughBros from "../images/DoughBros.png";
@@ -50,8 +50,17 @@ export default function Projects() {
                       UI Operations Project
                     </h1>
                     <p className={styles.projectDescription}>
-                      work in progress...
+                      Revamp TD creation with distinct columns, bulk upload, and
+                      error management.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="magenta">React Development</Tag>
+                        <Tag color="magenta">Stakeholder Interview</Tag>
+                        <Tag color="magenta">UI/UX</Tag>
+                        <Tag color="magenta">UX Research</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -79,8 +88,15 @@ export default function Projects() {
                   <div style={{ paddingTop: "60px" }}>
                     <h1 className={styles.projectTitle}>DogGooo</h1>
                     <p className={styles.projectDescription}>
-                      An app for dog owners
+                      Design iOS app to seamlessly discover and explore pet
+                      friendly destinations.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="purple">Product Design</Tag>
+                        <Tag color="purple">UI/UX</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -106,8 +122,15 @@ export default function Projects() {
                       Quote Request Draft Project
                     </h1>
                     <p className={styles.projectDescription}>
-                      Improve user satisfaction by introducing draft feature
+                      Enhance user experience with autosave and organized draft
+                      management.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="cyan">Stakeholder Interview</Tag>
+                        <Tag color="cyan">UI/UX</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -133,8 +156,15 @@ export default function Projects() {
                       Vendor Contact Management Project
                     </h1>
                     <p className={styles.projectDescription}>
-                      Connecting Property Managers and Vendors
+                      Enhance accountability with user hierarchy, permissions,
+                      and editable status feature.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="volcano">Product Design</Tag>
+                        <Tag color="volcano">UI/UX</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -146,7 +176,6 @@ export default function Projects() {
                 hoverable
                 style={{
                   backgroundColor: "#FEE4BD",
-                  // backgroundColor: "#EFDD8D",
                   border: "none",
                   width: "600px",
                   height: "400px",
@@ -163,8 +192,15 @@ export default function Projects() {
                   <div style={{ paddingTop: "60px" }}>
                     <h1 className={styles.projectTitle}>Dough Bros</h1>
                     <p className={styles.projectDescription}>
-                      An effective way to split payments
+                      Develop app for seamless expense splitting, storage, and
+                      accountability tracking.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="gold">Product Design</Tag>
+                        <Tag color="gold">UI/UX</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -188,8 +224,15 @@ export default function Projects() {
                   <div>
                     <h1 className={styles.projectTitle}>Mentoree</h1>
                     <p className={styles.projectDescription}>
-                      To connect with professionals in the tech industry
+                      Crafting intuitive web app connecting aspiring individuals
+                      with tech mentors.
                     </p>
+                    <div>
+                      <Space size={[0, 8]} wrap>
+                        <Tag color="green">Design</Tag>
+                        <Tag color="green">UI</Tag>
+                      </Space>
+                    </div>
                   </div>
                 </div>
               </Card>

@@ -627,14 +627,13 @@ export default function VendorContactManagementProject() {
                   />
                 </div>
                 <p>
-                  In response to the product team's request, I collaborated with
-                  another designer to overhaul the account settings for vendors.
-                  The updated design empowers vendor employees to invite users
-                  to VendorPM through their accounts, granting them the ability
-                  to edit email preferences for any employee. While concerns
-                  about privacy and potential user errors were raised by the
-                  design team, the product team saw the convenience that such a
-                  feature could offer to users.
+                  I collaborated with another designer to overhaul the account
+                  settings for vendors. The updated design empowers vendor
+                  employees to invite users to VendorPM through their accounts,
+                  granting them the ability to edit email preferences for any
+                  employee. While concerns about privacy and potential user
+                  errors were raised by the design team, the product team saw
+                  the convenience that such a feature could offer to users.
                 </p>
               </div>
             </div>
