@@ -34,7 +34,7 @@ export default function PersonalLinks() {
         />
       </a>
       <a
-        href="https://drive.google.com/file/d/1Hh0CanI4SGIdZi8CTC3hLeLSHPeRmFJN/view?usp=sharing"
+        href="https://drive.google.com/file/d/1dEkD2P5KReoWNvFWbQVdKcxl_xL_xXyj/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
