@@ -58,7 +58,6 @@ export default function Projects() {
                         <Tag color="magenta">React Development</Tag>
                         <Tag color="magenta">Stakeholder Interview</Tag>
                         <Tag color="magenta">UI/UX</Tag>
-                        <Tag color="magenta">UX Research</Tag>
                       </Space>
                     </div>
                   </div>

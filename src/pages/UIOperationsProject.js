@@ -6,13 +6,7 @@ import UserFlowOne from "../images/UserFlowOne.png";
 import UserFlowTwo from "../images/UserFlowTwo.png";
 import CurrentUI from "../gif/CurrentUI.mov";
 import UpdatedUI from "../gif/UpdatedUI.mov";
-
-import QuoteRequestDraftCover from "../images/QuoteRequestDraftCover.png";
-import QuoteRequestDraftComponents from "../images/QuoteRequestDraftComponents.png";
-import SavedToDrafts from "../images/SavedToDrafts.png";
-import Saving from "../images/Saving.png";
-import ErrorInSaving from "../images/ErrorInSaving.png";
-import DraftTab from "../images/DraftTab.png";
+import BulkUploadAlert from "../images/BulkUploadAlert.png";
 
 import styles from "./UIOperationsProject.module.css";
 
@@ -52,7 +46,7 @@ export default function UIOperationsProject() {
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
                 <p>
-                  I currently a UX Engineer of Rakuten SEM platform team,
+                  I am currently a UX Engineer of Rakuten SEM platform team,
                   dedicated to supporting the Ichiba Marketing Department with
                   creative management and seamless data sync integrations across
                   Google Ads and Yahoo Ads. Initially brought on board to
@@ -253,7 +247,7 @@ export default function UIOperationsProject() {
                   1. Filtering and Downloading TD Templates: Users access the TD
                   Template page to filter templates synced on Google or Yahoo.
                   They can apply multiple filters for Account, Campaign, Suffix
-                  Name, and Status, while other fields permit single-filter
+                  Name, and Status, while other fields permit single filter
                   applications due to their lengthy content. Fixed columns
                   Account, Campaign, Suffix Name, and Status and variable
                   columns headline1, headline2, description1, path1, finalUrl
@@ -301,6 +295,22 @@ export default function UIOperationsProject() {
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               ></div>
             </div>
+            <div
+              className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
+            >
+              <div
+                className={`${styles.contentTitle} animate__animated animate__fadeInUp`}
+              >
+                <h2>Bulk Upload Alert</h2>
+              </div>
+              <div>
+                <img
+                  src={BulkUploadAlert}
+                  alt="Bulk Upload Alert"
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                />
+              </div>
+            </div>
 
             <div
               className={`${styles.contentWrapper} animate__animated animate__fadeInUp`}
@@ -342,7 +352,7 @@ export default function UIOperationsProject() {
                 </p>
                 <p>
                   I advocated for the utilization of Rakuten ReX Design system
-                  to enhance the UI's visual layout, ensuring adherence to
+                  to enhance the visual layout of the UI, ensuring adherence to
                   established design standards. Regular collaboration with the
                   design systems team facilitated a cohesive and familiar
                   interface, enhancing user experience.
