@@ -1,6 +1,7 @@
 import Layout from "antd/es/layout/layout";
 import PersonalLinks from "../components/PersonalLinks";
 import DogGoooCover from "../images/DogGoooCover.png";
+import DogGoooWireframes from "../gif/DogGoooWireframes.mov";
 import DogGoooResearchResults from "../images/DogGoooResearchResults.png";
 import DogGoooPersona from "../images/DogGoooPersona.png";
 import DogGoooInformationArchitecture from "../images/DogGoooInformationArchitecture.png";
@@ -316,6 +317,15 @@ export default function DogGooo() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.videoCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={DogGoooWireframes} type="video/mp4"></source>
+                </video>
                 <p>
                   Based on my research findings, it became evident that users
                   are more inclined to seek lists of pet friendly

@@ -7,13 +7,13 @@ import StakeholderResearch from "../images/stakeholderResearch.png";
 import PMFlow from "../images/pmflow.png";
 import VendorFlow from "../images/vendorflow.png";
 import ProgressTracker from "../images/progresstracker.png";
-import AddCollaborator from "../gif/AddCollaborator";
-import IndividualRemoval from "../gif/IndividualRemoval";
-import AdminRemoval from "../gif/AdminRemoval";
-import QuoteCreation from "../gif/QuoteCreation";
-import VendorListing from "../gif/VendorListing";
-import UserPreferences from "../gif/UserPreferences";
-import EditQuote from "../gif/EditQuote";
+import AddCollaboratorUpdated from "../gif/AddCollaboratorUpdated.mov";
+import IndividualRemoval from "../gif/IndividualRemoval.mov";
+import AdminRemoval from "../gif/AdminRemoval.mov";
+import QuoteCreation from "../gif/QuoteCreation.mov";
+import VendorListing from "../gif/VendorListing.mov";
+import UserPreferences from "../gif/UserPreferences.mov";
+import EditQuote from "../gif/EditQuote.mov";
 import ABTesting from "../images/abtesting.png";
 
 import styles from "./VendorContactManagementProject.module.css";
@@ -423,11 +423,18 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <AddCollaborator
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source
+                    src={AddCollaboratorUpdated}
+                    type="video/mp4"
+                  ></source>
+                </video>
 
                 <p>
                   The primary vendor contact can seamlessly augment
@@ -449,11 +456,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <IndividualRemoval
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={IndividualRemoval} type="video/mp4"></source>
+                </video>
 
                 <p>
                   If a collaborator wishes to remove themselves from a quote
@@ -481,11 +492,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <AdminRemoval
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={AdminRemoval} type="video/mp4"></source>
+                </video>
 
                 <p>
                   Administrators within the vendor organization possess
@@ -515,11 +530,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <QuoteCreation
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={QuoteCreation} type="video/mp4"></source>
+                </video>
 
                 <p>
                   Property managers enjoy the flexibility to choose their
@@ -547,11 +566,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <VendorListing
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={VendorListing} type="video/mp4"></source>
+                </video>
 
                 <p>
                   Property managers benefit from the ability to discover a
@@ -621,11 +644,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <UserPreferences
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={UserPreferences} type="video/mp4"></source>
+                </video>
                 <p>
                   I collaborated with another designer to overhaul the account
                   settings for vendors. The updated design empowers vendor
@@ -649,11 +676,15 @@ export default function VendorContactManagementProject() {
               <div
                 className={`${styles.contentDescription} animate__animated animate__fadeInUp`}
               >
-                <div>
-                  <EditQuote
-                    className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
-                  />
-                </div>
+                <video
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className={`${styles.descriptionCover} animate__animated animate__fadeInUp`}
+                >
+                  <source src={EditQuote} type="video/mp4"></source>
+                </video>
                 <p>
                   In response to the postponed user hierarchy implementation and
                   the expanded user permissions, I proposed a solution to

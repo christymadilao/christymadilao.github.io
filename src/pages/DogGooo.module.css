@@ -21,6 +21,13 @@
   margin: auto;
 }
 
+.videoCover {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 .title {
   display: flex;
   justify-content: center;
